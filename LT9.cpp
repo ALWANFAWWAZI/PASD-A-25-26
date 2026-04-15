@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -84,7 +85,7 @@ void CetakStack(stack S) {
             cout << "Nomor Pokok Mahasiswa : " << bantu->Kontainer.npm << endl;
             cout << "Nama Mahasiswa : " << bantu->Kontainer.nama_mhs << endl;
             cout << "Nilai Mahasiswa : " << bantu->Kontainer.nilai << endl;
-            
+
             bantu = bantu->next;
             i = i + 1;
         }
