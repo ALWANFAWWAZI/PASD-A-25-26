@@ -7,7 +7,7 @@ typedef struct {
     string nama_mhs;
     double nilai;
 } NilaiMK;
-
+ 
 typedef struct elm *alamatelm;
 typedef struct elm {
     NilaiMK Kontainer;
