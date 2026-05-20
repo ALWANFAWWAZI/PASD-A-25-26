@@ -23,7 +23,7 @@ int main(){
     cout<<"masukkan nama              : ";cin>>nama;
     cout<<"Nama anda "<<nama<<endl;
     cout<<endl;
-
+ 
     cout<<"masukkan satu huruf        : ";cin>>karakter;
     cout<<"Huruf anda "<<karakter<<endl;
 
