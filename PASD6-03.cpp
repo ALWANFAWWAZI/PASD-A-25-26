@@ -10,7 +10,7 @@ private:
         int i = kiri, j = kanan;
         int pivot = data[(kiri + kanan) / 2];
 
-        while (i <= j) {
+        while (i <= j) { 
             while (data[i] > pivot) i++;
             while (data[j] < pivot) j--;
             if (i <= j) {
