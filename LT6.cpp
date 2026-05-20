@@ -6,7 +6,7 @@ struct Mahasiswa{
 	char nama[30];
 	float ipk;
 };
-
+ 
 int main(){
 	Mahasiswa mhs;
 	cout << "Nomor Pokok Mahasiswa      = "; cin >> mhs.NPM;
