@@ -12,7 +12,7 @@ struct MergeSortAscending {
 
         for (int i = 0; i < n1; i++) L[i] = arr[kiri + i];
         for (int j = 0; j < n2; j++) R[j] = arr[tengah + 1 + j];
-
+ 
         int i = 0, j = 0, k = kiri;
 
         while (i < n1 && j < n2) {
