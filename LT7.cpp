@@ -7,7 +7,7 @@ class Barang{
 	char namabarang[30];
 	float harga;
 };
-
+ 
 int main(){
 	Barang Toko;
 	cout << "Kode Barang              = "; cin >> Toko.kodebarang;
