@@ -5,7 +5,7 @@ using namespace std;
 int data[10], data2[20];
 int n;
 void tukar (int a, int b)
-{
+{ 
 int t;
 t = data[b];
 data[b] = data[a];
