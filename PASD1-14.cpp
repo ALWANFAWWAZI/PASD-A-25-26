@@ -18,7 +18,7 @@ struct Mahasiswa {
     MataKuliah mk[50];
     int totalSKS;
     float ipk;
-};
+}; 
 
 int main() {
     int jumlahMahasiswa;
