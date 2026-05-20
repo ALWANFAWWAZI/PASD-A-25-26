@@ -19,7 +19,7 @@ void merge(int arr[], int Kiri, int mid, int Kanan) {
     int k = Kiri;
 
     while (i < n1 && j < n2) {
-        if (L[i] >= R[j]) {
+        if (L[i] <= R[j]) {
             arr[k] = L[i];
             i++;
         }
@@ -60,7 +60,7 @@ void CetakData(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {65, 2, 44, 26, 19, 22, 5, 3, 12};
+    int arr[] = {50000, 35000, 75000, 45000, 60000, 30000, 55000,};
     int arrSize = sizeof(arr) / sizeof(arr[0]);
 
     cout << "DATA SEBELUM diurutkan:" << endl;
