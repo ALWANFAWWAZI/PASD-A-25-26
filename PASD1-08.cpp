@@ -8,7 +8,7 @@ struct pelanggan_toko {
     string nama[7], alamat[7], kelamin[7], telp[7];
     int umur[7];
 };
-
+ 
 int main() {
     pelanggan_toko data;
     
