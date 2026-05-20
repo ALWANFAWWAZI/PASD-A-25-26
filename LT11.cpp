@@ -118,7 +118,7 @@ int main() {
     add("45232107", "Taro", 78, &Q);
     add("45232108", "Kukis", 98, &Q);
     add("45232109", "Coklat", 68, &Q);
-    add("45232105", "Vanilla", 78, &Q);
+    add("45232105", "Vanilla	", 78, &Q);
     CetakQueue(Q);
     cout << "=====================" << endl;
     cout << endl;
