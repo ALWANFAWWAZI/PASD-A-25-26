@@ -34,7 +34,7 @@ public:
 };
 int main() {
     Stack s;
-    s.push('A');
+    s.push('A'); 
     s.push('B');
     s.push('C');
     s.push('D');
